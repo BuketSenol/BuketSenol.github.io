@@ -1,0 +1,896 @@
+@media screen and (max-width:1440px){
+    #project main{
+        padding: 40px 50px;
+    }
+    
+    div .box{
+    width: 260px;
+    height: 380px;}
+
+    #contact{
+        height: 240vh;
+    }
+}
+             
+
+@media screen and (max-width:992px) and (min-width:769px) {
+    /* home */
+    #home main h1{
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+        
+    #home main h2{
+        font-size:1.8rem;
+        margin:10px 0px;
+    }
+        
+
+    #home main h3{
+        font-size: 1rem;
+    }
+        
+
+    /* about */
+              
+    #about .container-profile{
+        padding: 30px 50px;
+    }
+        
+    #about main .container-education{
+        padding: 30px 50px;
+    }
+
+    #about main .container-skill{
+        padding: 30px 50px;
+    }
+        
+    #about main .skill-right{
+        justify-content: center;
+        margin-left: 30px;
+    }
+          
+    #about main .container-hobby{
+        padding: 20px 50px;
+    }
+        
+    #about main .container-work{
+        padding: 20px 50px;
+        height: 650px;
+    }
+        
+    #about main .work-content{
+        height: 450px;
+    }
+        
+    /* project */
+          
+    #project main h2{
+        font-size: 2.2rem;
+    }
+     /* contact */
+
+    #contact{
+        height: 205vh;
+    }
+        
+    #contact .container-contact{
+        padding: 12px 30px; 
+    }
+        
+    #contact  h2 {
+        padding: 10px 0px 10px 0px;
+    }
+            
+    #contact .contact-item{
+        width: 100%;
+        height:max-content;
+        text-align: center;
+        padding: 20px 10px;
+    }
+        
+    #contact .contact-item a, address{
+        font-size: 1.1rem;
+        line-height:1.5;
+    }
+        
+    .contact-form{
+        width:70%;
+        padding:  30px 70px;
+           
+    }   
+        
+    .contact-form form div label{
+        font-size: 1.1rem;
+        line-height: 1.5;
+    }  
+        
+    .contact-form form div input{
+        width:60%;
+        height: 35px;
+        font-size: 0.80rem;
+    }  
+        
+    .contact-form form div textarea{
+        width: 80%;
+        font-size: 1rem;
+    }  
+              
+    .contact-form form div .submit{
+        width: 110px;
+        height: 30px;
+        font-size: 1rem;
+    }  
+        
+}
+
+       
+@media screen and (max-width:768px) {
+    /* home */  
+    #home {
+        height: fit-content;
+        position: relative;
+    }
+        
+    #home main{
+        position: relative;
+    }
+        
+    #home main .titles{
+        width: 90%;
+        height: max-content;
+        position: absolute;
+        z-index: 2;
+        top: 230px;
+        left: 40px;
+    }
+    
+    #home main .home-img{
+        width: 100%;
+        object-fit: cover;
+        position: absolute;
+    }
+        
+    #home main .home-img img{
+        opacity: 0.95;
+    }
+    
+    #home main h1{
+        font-size: 2rem;
+        font-weight: 600;
+        margin-top:60px;
+    }
+        
+    #home main h2{
+        font-size:1.5rem;
+        font-weight: 600;
+        margin:10px 0px;
+    }
+        
+    #home main h3{
+        font-weight: 600;
+        font-size: 1rem;
+    }
+       
+    /* about */
+
+    /* education media */
+    #about .container-profile{
+        padding:20px 40px ;
+    }
+
+    #about .profile{
+        width: 30%;
+    }
+        
+    #about main .container-education{
+        padding: 20px 40px;
+        width: 100%;
+    }
+        
+    p, .hobby-right li, .work-left li{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+        
+    #about main .education-title h2, .skill-title h2, .hobby-title h2, .work-title h2{
+        padding-bottom: 12px;
+        font-size: 1.75rem;
+    }
+        
+    #about main .education-content{
+        width: 100%;
+        height: max-content;
+        flex-wrap: wrap;
+        padding: 10px ;
+    }
+        
+    #about main .education-left{
+        width: 100%;
+        justify-content: center;
+        padding-bottom: 8px;
+    }
+         
+    #about main .education-left img{
+        width: 30%;
+        height: 250px;
+    }
+       
+    #about main .education-right{
+        width: 100%;
+        padding: 0px 30px;
+    }
+    
+    #about main .education-right p{
+        padding: 12px 0;
+        text-align: justify;
+    }
+
+    /* skill media */
+
+    #about main .container-skill{
+        padding: 30px 40px;
+        width: 100%;
+    }
+    
+    #about main .skill-content{
+        width: 100%;
+        height: max-content;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    
+    #about main .skill-left{
+        width: 100%;
+        padding: 0 30px;
+    }
+        
+    #about main .skill-right img{
+        width: 30%;
+    }
+           
+    #about main .skill-right{
+        width:100%;
+        justify-content: center;
+        margin-top: 20px;
+        padding: 0;
+    }
+        
+
+    /* hobby  media*/
+    #about main .container-hobby{
+        padding: 30px 40px;
+        height:max-content;
+        
+    }
+        
+    #about main .hobby-content{
+        height: max-content;
+        padding: 10px ;
+    }
+            
+    #about main .hobby-left{
+        width: 100%;
+    }
+           
+    #about main .hobby-left img{
+        width:70%;
+        height: max-content;
+    }
+        
+    #about main .hobby-right{
+        width: 100%;
+    }
+        
+    #about main .hobby-right ul {
+        padding-left: 2px;
+    }   
+
+
+    /* work media */
+        
+    #about main .container-work{
+        padding: 30px 40px;
+        height: max-content;
+    }
+        
+    #about main .work-content{
+        height: max-content;
+        padding: 10px ;
+    }
+       
+    #about main .work-left{
+        width: 100%;
+    }
+
+    #about main .work-left ul {
+        padding-left: 2px;  
+    }     
+        
+    #about main .work-right{
+        width: 100%;
+        height: 300px;
+        padding: 0 20px;
+        margin-top: 15px;
+    }
+        
+    #about main .work-right .img-pilates{
+        width: 60px;
+        height: max-content;
+        transform: translate(-60px, -65px);
+    }
+        
+    #about main .work-right .img-whistle{
+        width: 55px;
+        height: max-content;
+        transform:translate(-60px, 45px ) ;
+    }
+        
+    #about main .work-right .img-ball{
+        width: 60px;
+        height: max-content;
+        transform: translate(50px, 50px);
+    }
+        
+    #about main .work-right .img-rowing{
+        width: 100px;
+        height: max-content;
+        transform: translate(40px,-80px) rotate(25deg);
+    }
+
+    #about main .work-right .img-work{
+        width: 160px;
+        height: max-content;
+        padding: 40px;
+    }
+        
+    
+    /* FOOTER  */
+    footer{
+        padding: 10px 0px 20px 0px;
+        height: max-content;
+    }
+     
+    #footer-bottom{
+        flex-wrap: wrap;
+    }
+            
+    .footer-nav{
+        width: 100%;
+    }
+ 
+    #footer-bottom  li a{
+        line-height: 1.5;
+    }
+
+    .social-nav{
+        width: 100%;
+    }
+    
+    .social-nav ul li{
+        margin: auto;
+    }
+    .social-nav svg{
+        width: 30px;
+    }
+ 
+    /* project */
+
+    #project main{
+        width: 100%;
+        padding: 20px 30px;
+    }
+    
+    #project main h2{
+       
+        margin-bottom: 8px;
+    }
+    
+    .container-project{
+        padding: 30px 0px;
+        gap: 40px;
+    }       
+    
+    div .box{
+        width: 250px;
+        height: 380px;  
+    }
+
+    /* contact */
+    #contact .container-contact{
+        padding: 12px 30px; 
+    }
+    
+    #contact  h2 {
+        padding: 10px 0px 10px 0px;
+    }
+        
+    #contact .contact-item{
+        width: 100%;
+        height:max-content;
+        text-align: center;
+        padding: 20px 10px;
+    }
+    
+    #contact .contact-item a, address{
+        font-size: 1.1rem;
+        line-height:1.5;
+    }
+
+    .contact-form{
+        width: 90%;
+       padding:  30px 80px;
+       
+    } 
+    
+    
+    .contact-form form div label{
+        font-size: 1.1rem;
+        line-height: 1.5;
+    }  
+    
+    .contact-form form div input{
+        width:60%;
+        height: 35px;
+        font-size: 0.80rem;
+    }  
+    
+    .contact-form form div textarea{
+        width: 80%;
+        font-size: 1rem;
+        
+    }  
+    
+    .contact-form form div .submit{
+        width: 110px;
+        height: 30px;
+        font-size: 1rem;
+    }  
+    
+}
+
+
+@media screen and (max-width:600px) {
+    .header-nav{
+        width: 100%;
+        height: 130px;
+        padding-top:10px ;
+        padding-bottom:5px ;
+        display: block;
+        text-align: center;
+    }
+    
+    .header-nav ul{
+        padding: 0;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+    }
+           
+    .header-nav ul li{
+        padding: 0;
+        margin: 5px 5px;
+    }     
+           
+    .header-nav li a{
+        justify-content: center;
+        align-items: center;
+    }
+        
+
+    /* home media */
+    
+    #home main .titles{
+        width: 80%;
+        top: 215px;
+        left: 35px;
+        
+    }
+    
+    #home main h1{
+        font-size: 1.5rem;
+        
+    }
+
+    #home main h2{
+        font-size:1.25rem;
+        
+    }
+        
+    #home main h3{
+        
+        font-size: .80rem;
+    }
+
+    /******** about media ******/
+        
+    /* education media */
+    #about .container-profile{
+        padding:10px 30px ;
+    }
+
+    #about .profile{
+        width: 30%;
+    }
+
+    #about main .container-education{
+        padding: 20px 30px;
+        width: 100%;
+    }
+        
+    p, .hobby-right li, .work-left li{
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+        
+    #about main .education-title h2, .skill-title h2, .hobby-title h2, .work-title h2{
+        padding-bottom: 12px;
+        font-size: 1.75rem;
+    }
+
+    #about main .education-content{
+        width: 100%;
+        height: max-content;
+        flex-wrap: wrap;
+        padding: 10px ;
+    }
+        
+
+    #about main .education-left{
+        width: 100%;
+        justify-content: center;
+        padding-bottom: 10px;
+       
+    }
+       
+    #about main .education-left img{
+        width: 40%;
+        height: 200px;
+    }
+        
+    #about main .education-right{
+        width: 100%;
+        padding: 0px 3px;
+    }
+
+    
+    #about main .education-right p{
+        padding: 12px 0;
+        text-align: justify;
+    }
+         
+
+    /* skill media */
+
+    #about main .container-skill{
+        padding: 40px 30px;
+        width: 100%;
+    }    
+          
+    #about main .skill-content{
+        width: 100%;
+        height: max-content;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    #about main .skill-left{
+        width: 100%;
+        padding: 0;
+    }
+        
+    #about main .skill-right img{
+        width: 70%;
+        margin-bottom: 10px;
+    }
+           
+    #about main .skill-right{
+        width:100%;
+        justify-content: center;
+        margin-top: 20px;
+        padding: 0;
+        margin-left:0;
+    }
+        
+    /* hobby  media*/
+    #about main .container-hobby{
+        padding: 30px 30px;
+        height:max-content;
+    }
+        
+    #about main .hobby-content{
+        height: max-content;
+        flex-wrap: wrap;
+        padding: 10px ;
+    }
+            
+    #about main .hobby-left{
+        width: 100%;
+    }
+        
+        
+    #about main .hobby-left img{
+        width:60%;
+        height: max-content;
+    }
+        
+    #about main .hobby-right{
+        width: 100%;
+    }
+        
+    #about main .hobby-right ul {
+        padding-left: 2px;
+    }   
+    
+    /* work media */
+        
+    #about main .container-work{
+        padding: 30px 30px;
+        height: max-content;
+    }
+        
+    #about main .work-content{
+        height: max-content;
+        flex-direction:column-reverse;
+        flex-wrap: wrap;
+        padding: 10px ;
+    }
+        
+    #about main .work-left{
+        width: 100%;
+    }
+
+    #about main .work-left ul {
+        padding-left: 2px;
+        
+    }   
+        
+        
+    #about main .work-right{
+        width: 100%;
+        height: 300px;
+        padding: 0 20px;
+        margin-top: 15px;
+    }
+        
+    #about main .work-right .img-pilates{
+        width: 70px;
+        height: max-content;
+        transform: translate(-60px, -70px);
+    }
+        
+    #about main .work-right .img-whistle{
+        width: 55px;
+        height: max-content;
+        transform:translate(-65px, 55px ) ;
+    }
+        
+    #about main .work-right .img-ball{
+        width: 70px;
+        height: max-content;
+        transform: translate(65px, 50px);
+    }
+        
+    #about main .work-right .img-rowing{
+        width: 100px;
+        height: max-content;
+        transform: translate(55px, -80px) rotate(20deg);
+    }
+
+    #about main .work-right .img-work{
+        width: 180px;
+        height: max-content;
+        padding: 40px;
+    }
+        
+    
+    /* FOOTER  */
+
+    footer{
+       padding-top: 10px;
+       height: max-content;
+    }
+    
+    #footer-bottom{
+       flex-wrap: wrap;
+    }
+           
+    .footer-nav{
+        width: 100%;
+    }
+
+    #footer-bottom  li a{
+        line-height: 1.5;
+    }
+    
+
+    .social-nav{
+        width: 100%;
+    }
+        
+    .social-nav ul li{
+        margin: auto;
+     }
+        
+     .social-nav svg{
+        width: 20px;
+    }
+
+    /*PROJECT MEDİA */
+
+    #project main{
+        padding: 25px 30px;
+    }
+    
+    #project main h2{
+        font-size: 2rem;
+    }
+
+    /* CONTACT MEDİA */
+
+    #contact{
+        height: 270vh;
+    }
+    
+    #contact .container-contact{
+        flex-wrap: wrap;
+    }
+    
+    #contact .contact-item{
+        padding: 20px 30px;
+       
+    }
+        
+    #contact .contact-item a, address{
+        font-size: 1.2rem;
+       
+    }
+        
+    .contact-form{
+        width: 100%;
+       padding:  30px 30px;
+       
+    }   
+       
+    .contact-form form div label{
+        font-size: 1.2rem;
+    }  
+              
+    .contact-form form div input{
+        width: 70%;
+        font-size: 1rem;
+    }  
+        
+}
+        
+    
+    
+    
+        
+       
+        
+    
+    
+       
+       
+       
+     
+    
+       
+    
+    
+        
+        
+      
+        
+        
+       
+        
+        
+       
+    
+    
+        
+    
+
+   
+    
+    
+
+    
+    
+
+
+
+
+
+        
+
+
+
+
+    
+        
+       
+        
+        
+           
+    
+        
+       
+        
+        
+        
+
+
+       
+       
+        
+    
+       
+       
+       
+   
+       
+   
+   
+       
+       
+       
+   
+
+
+
+
+
+
+
+       
+   
+
+       
+        
+
+        
+        
+        
+    
+    
+        
+        
+        
+       
+
+        
+    
+           
+       
+        
+        
+        
+
+       
+
+        
+             
+
+
+    
+     
+       
+        
+    
+    
+    
+    
+        
+        
+        
+    
+    
+    
+
+    
+    
